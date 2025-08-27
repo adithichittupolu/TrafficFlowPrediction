@@ -14,26 +14,38 @@ Key Features:
 date_time: Timestamp of observation
 
 traffic_volume: Number of cars passing through
+
 temp, rain_1h, snow_1h: Weather metrics
+
 clouds_all: Cloud coverage
+
 holiday: Holiday indicator
 
 # 🧹Data Preprocessing (preprocess.py)
 Converts date_time to datetime format
+
 Extracts hour, dayofweek, and month
+
 Selects relevant features
+
 Drops missing values
 
 # 🧠Model Training (train_model.py)
 Loads preprocessed data
+
 Splits into training and testing sets
+
 Trains a RandomForestRegressor
+
 Evaluates using Mean Absolute Error (MAE)
+
 Saves model as traffic_model.pkl
 
 # 🔮Prediction (predict.py)
 Loads saved model
+
 Accepts input features (hour, dayofweek, month, temp, rain, snow)
+
 Outputs predicted traffic volume.
 
 # 🚀How to Run in IntelliJ
@@ -51,4 +63,5 @@ Run predict.py to test predictions.
 Use advanced models like XGBoost or LSTM
 
 Add holiday and weather condition encoding
+
 Build a Streamlit dashboard for interactive predictions
