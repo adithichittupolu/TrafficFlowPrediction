@@ -5,11 +5,14 @@ This project aims to predict hourly traffic volume on a highway using historical
 
 # 📦Dependencies
 Install dependencies using:
+
 pip install -r requirements.txt
 
 # 📊Dataset Description
 Key Features:
+
 date_time: Timestamp of observation
+
 traffic_volume: Number of cars passing through
 temp, rain_1h, snow_1h: Weather metrics
 clouds_all: Cloud coverage
