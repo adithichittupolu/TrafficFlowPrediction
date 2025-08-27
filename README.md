@@ -35,12 +35,17 @@ Outputs predicted traffic volume.
 
 # 🚀How to Run in IntelliJ
 Open IntelliJ IDEA and create a Python project.
+
 Add the folder structure and files.
+
 Install dependencies via terminal.
+
 Run train_model.py to train and save the model.
+
 Run predict.py to test predictions.
 
 # ✅Future Improvements
 Use advanced models like XGBoost or LSTM
+
 Add holiday and weather condition encoding
 Build a Streamlit dashboard for interactive predictions
